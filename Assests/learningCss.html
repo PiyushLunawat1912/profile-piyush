@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+      #learning {
+        text-transform: uppercase;
+        /* font-style: italic;
+        border-style: dashed;
+        border-width: 5px;
+        border-color: rgb(8, 8, 8); */
+        border: 5px dashed crimson;
+      }
+      /* Name selector or tag selector */
+      h3 {
+        color: cadetblue;
+      }
+      /* ID selector */
+      #zoom {
+        font-weight: bolder;
+      }
+      #personal {
+        color: blue;
+      }
+      /* Class selector */
+      .address {
+        text-decoration: underline;
+        text-decoration: underline;
+        font-size: larger;
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      #html {
+        border: solid 2px chocolate;
+        /* padding: 10px 40px 10px 10px; */
+        padding: 40px 20px;
+        margin: 15px;
+        width: 400px;
+      }
+      #JavaScript {
+        border: 2px solid cadetblue;
+        margin: 30px;
+        box-sizing: border-box;
+        padding: 40px 15px;
+        margin: 30px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS -->
+    <h2 style="color: aqua; background-color: rgb(255, 102, 0)" id="learning">
+      Learning CSS Bro
+    </h2>
+    <p style="font-size: large; color: rgb(22, 231, 130)">
+      I have started topic with types of CSS
+    </p>
+    <h1>My Details</h1>
+    <h2 id="personal">My personal Details</h2>
+    <h3 class="address">My Present Address</h3>
+    <p class="address">
+      Flat no 203, <strong>Yashashree Housing Society,</strong> Pune-
+      <u>123456</u>
+    </p>
+    <hr />
+    <h2>About Zoom Meeting</h2>
+
+    <p id="zoom">
+      When you join meetings, webinars, chats or channels hosted on Zoom, your
+      profile information, <br />
+      including your name and profile picture, may be visible to other
+      participants or members. Your name and email address will also be visible
+      to the account owner and host when you join meetings, webinars, chats or
+      channels on <br />
+      their account while you're signed in.
+    </p>
+    <p id="html">I am good in HTML</p>
+    <p id="JavaScript">I am good in JavaScript</p>
+  </body>
+</html>

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Profile</title>
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon" />
+    <h2 id="portfolio"><u>PORTFOLIO</u></h2>
+    <!-- Google font fmaily CDN link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Internal Css -->
+    <style>
+
+      /* Universal Selector */
+      *{
+        font-family: "Roboto", sans-serif;
+
+      }
+
+     
+
+
+ /* footer{
+ text-align:center;
+   justify-content: center; 
+  align-items: center;
+ } */
+
+footer {
+text-align: center;
+padding: 25px; margin: 25px;
+}
+      
+#portfolio{ 
+        text-align: center;
+        border: solid aquamarine;
+        padding:20px ;
+        margin: 20px;
+          
+      }
+      #header{
+        color: aliceblue; background-color: rgb(255, 21, 21);
+      }
+      /*Home Section  */
+      #homesection{
+        text-align: center;
+         border: solid rgb(53, 132, 211); 
+        text-transform: uppercase;
+        /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+        text-decoration: underline;
+        padding:20px ;
+        margin: 20px;
+        font-family: "Briem Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1000px;
+        font-style: normal;
+
+    
+      }
+      /* .careerSummary { color: aqua; background-color:black
+      } */
+      .careerSummary{
+        font-family: "Signika Negative", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300px;
+        font-style: normal;
+      }
+     
+      
+      #PROJECTDETAILSSECTION{
+        text-align: center;
+        border: solid rgb(53, 132, 211);
+        text-transform: uppercase;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        text-decoration: underline;
+        padding:20px ;
+        margin: 20px;
+        font-family: "Briem Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1000px;
+        font-style: normal;
+        
+      }
+      #OTHERSECTION{
+        text-align: center;
+        background-color: solid rgb(53, 132, 211);
+        text-transform: uppercase;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        text-decoration: underline;
+        padding:20px ;
+        margin: 20px;
+        font-family: "Briem Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1000px;
+        font-style: normal;
+      }
+      
+
+    
+      /*====================Nav Section=======================  */
+
+      #navSection a{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 10px;
+        margin-right: 30px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-shadow: 4px 6px 2px rgba(181,213,17,0.6);
+
+     }
+
+     #cv-download{
+       padding: 8px;
+       border-radius: 10px;
+       color: cadetblue;
+       font-weight: bold;
+       text-transform: uppercase;
+       border: 2px solid rgb(110, 191, 110);
+
+     }
+
+     #cv-download:hover{
+      color: #2B12CE;
+      text-transform: capitalize;
+      background-color: #FFFFFF;
+
+     }
+
+      .header-info{
+        margin-left: 10px;
+        margin-right: 30px;
+       }
+
+       .header-info:hover{
+        color:#e141b4
+           
+       }
+
+
+        #home,li {
+        margin-left: 10px;
+        margin-right: 30px;
+        list-style-type:none;
+        
+       } 
+
+       #home li::before{
+        content: "✍🏼";
+        padding-right: 10px;
+       }
+
+      #home li:hover{
+        /* background-color: #000000; */
+        color:#8FBBBD;
+
+      }
+
+      #home li::selection{
+        background-color:bisque;
+      }
+       
+       /* #home,li {
+        padding: 0 0 10px 0px;
+        padding-bottom: 10px;
+        list-style-type: square;
+      } */
+       #techstack{
+        margin-left: 10px;
+        margin-right: 30px;
+        
+       }
+
+
+       /* ================================Education Section=========================================== */
+
+       #EDUCATIONSECTION{
+        text-align: center;
+        border: solid rgb(53, 132, 211);
+        text-transform: uppercase;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        text-decoration: underline;
+        padding:20px ;
+        margin: 20px;
+        font-family: "Briem Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1000px;
+        font-style: normal;
+
+      }
+
+       #education{
+        margin-left: 10px;
+        margin-right: 30px;
+        list-style-type:square;
+       
+
+       }
+
+       
+
+        
+
+
+
+
+       #education th,td{
+        text-align: center;
+        padding: 10px;
+       }
+
+
+      
+
+      
+      #education table tr td:hover{
+        /* background-color: #000000; */
+        color:#c713cd;
+        border-color: #2B12CE;
+
+       }
+
+       #education table tr th:hover{
+        /* background-color: #000000; */
+        color:#de67e2;
+        border-color: #2B12CE;
+
+       }
+
+       
+      
+     
+
+
+       /* ========================================================Education Section END========================================================== */
+
+       /*=========================================================Project Detail Section========================================================= */
+       #project,li{
+        margin-left: 10px;
+        margin-right: 30px;
+        padding: 0 0 10px 0;
+        
+       }
+       /* #rolesandresponsibilities,li{
+        margin-left: 10px;
+        margin-right: 30px;
+        padding: 0 0 10px 0;
+
+       } */
+       /* #rolesResp li {
+        list-style-type: lower-alpha; 
+        list-style-type: lower-roman;
+        list-style-type: upper-roman 
+      } */
+
+      #rolesResp li::before{
+        content: "🖥️";
+        padding-right: 10px;
+      }
+
+      #rolesResp{
+        margin-bottom: 10px;
+      }
+
+      #rolesResp li::selection{
+        background-color:rgb(148, 151, 194);
+      }
+
+
+      #rolesResp li:hover{
+        /* background-color: #000000; */
+        color:#ce364d;
+      }
+       /*=========================================================Project Detail Section End ========================================================= */
+
+       #others{
+        margin-left: 10px;
+        margin-right: 30px;
+        
+       }
+       #other,li{
+        padding: 0 0 10px 0;
+       }
+
+       /* #family{
+        padding: 0 0 10px 0;
+      
+      
+       }  */
+
+       .parents{
+        list-style-type:square 
+       }
+
+       #resume{
+        margin-left: 10px;
+        margin-right: 30px;
+        
+       }
+         /* ==========================Tech Stack Section =============================== */
+         #TECHSTACKSECTION{
+        text-align: center;
+        border: solid rgb(53, 132, 211);
+        text-transform: uppercase;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        text-decoration: underline;
+        padding:20px ;
+        margin: 20px;
+        font-family: "Briem Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1000px;
+        font-style: normal;
+     
+
+      }
+      
+         #tech ,th,td{
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 30px;
+        
+
+       }
+
+
+       #tech table tr:hover{
+        background-color: #000000;
+        color:#8FBBBD;
+
+       }
+       
+
+
+
+       /* ===========================Ions Section ============================================== */
+
+       /* .icon{
+
+        justify-content: center;
+       } */
+       
+        .linkedin-icon{
+        
+        padding: 10px;
+        justify-content: center;
+       }
+       .instagram-icon{
+        padding: 10px;
+        justify-content: center;
+       }
+       .twitter-icon{
+        padding: 10px;
+        justify-content: center;
+       }
+
+       .github-icon{
+        padding: 10px;
+        justify-content: center;
+       }
+
+       .youtube-icon{
+        padding: 10px;
+        justify-content: center;
+       }
+
+
+
+       /*==========================table======================================  */
+
+       table, td, th
+       {
+        border: 2px solid   rgb(61, 218, 221) ;
+        border-collapse:collapse;
+       }
+
+       /* ===========================Ions Section End ============================================== */
+
+
+    </style>
+  </head>
+  <body>
+    <!-- =================Header Section===================== -->
+    <section>
+      <header>
+      &nbsp; &nbsp; &nbsp;
+      <i class="fa fa-lg fa-user" aria-hidden="true"></i>
+      
+      <strong class="header-info" >Piyush</strong>
+
+      
+
+      <i class="fa fa-lg fa-phone" aria-hidden="true" ></i>
+      
+      <strong class="header-info">8788 764 220</strong>
+
+     
+      <i class="fa fa-lg fa-envelope-o" aria-hidden="true"></i>
+      
+      <strong class="header-info">piyushpl9527@gmail.com</strong>
+    </header>
+    </section>
+
+    <br />
+    <hr>
+    <!-- =================Navigation Section===================== -->
+
+    <nav id="navSection">
+      <nav id="navSection">
+        <a class="nav" href="#home"> HOME</a>
+        <a class="nav" href="#tech"> TECH STACK</a>
+        <a class="nav" href="#education"> EDUCATION</a>
+        <a class="nav" href="#project"> PROJECT</a>
+        <a class="nav" href="#others"> OTHERS</a>
+      
+      <a href="resume.pdf" id="resume" download=""> <button type="button" id="cv-download">Download CV</button> 
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755"/>
+      </svg> -->
+    </a>
+    </nav>
+    <hr>
+
+    <!-- =================Main or Body Section===================== -->
+
+    <!-- HOME Section -->
+    <h2  id="homesection" >1.Home section</h2>
+    <section id="home">
+      <h2 class="careerSummary">Career Objective</h2>
+      <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILL AND HELP ORGANIZATIONAL GROWTH </p>
+      <h2 class="careerSummary">Professional Summary</h2>
+      <ul>
+        <li >
+          Having 1 years of experience in developing Single page Web
+          Applications using Angular 8, HTMLS, CSS3, Bootstrap 5, JavaScript,
+          TypeScript
+        </li>
+        <li id="experience">
+          Experience on working with version control system - GIT and GitHub
+        </li>
+        <li>Experience working with JIRA for user stories and bug tracking</li>
+        <li>
+          Strong Debugging & Troubleshooting code experience using Chrome
+          Developer Tool
+        </li>
+        <li>Working exposure on ID's like VS Code and Notepad++</li>
+        <li>Good working experience under Agile methodologies environment</li>
+        <li>
+          Experience in using Chrome Developer Tool for debugging and
+          Troubleshooting the code
+        </li>
+        <li>Knowledge of NodeJS</li>
+        <li>Ability to work with people at all levels in the program</li>
+      </ul>
+    </section>
+    <hr />
+
+    <!--TECH STACK  -->
+    <H2  id="TECHSTACKSECTION">2.TECH STACK SECTION</H2>
+    <section id="tech">
+      
+      <h2 class="careerSummary">Technology Stack</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr.No</th>
+            <th>Technology Stack</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>HTML</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>02</td>
+            <td>CSS</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>03</td>
+            <td>JavaScript</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>04</td>
+            <td>Angular</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- EDUCATION -->
+    <h2   id="EDUCATIONSECTION">3.EDUCATION SECTION</h2>
+    <section id="education">
+      <h2 class="careerSummary">My Education Details</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Qualification</th>
+            <th>School/College</th>
+            <th>Board/University</th>
+            <th>Year</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>BE</td>
+            <td>CSMIT,Shedung,Panvel</td>
+            <td >Mumbai</td>
+            <td>2019</td>
+            <td>61.27%</td>
+          </tr>
+
+          <tr>
+            <td>Diploma</td>
+            <td>VJIT,Matunga,Mumbai</td>
+            <td>Autonomous</td>
+            <td>2016</td>
+            <td>72.29%</td>
+          </tr>
+
+          <tr>
+            <td>SSC</td>
+            <td>DVs High School,KoparKhairane,Navi Mumbai</td>
+            <td>Sate Board</td>
+            <td>2013</td>
+            <td>90.73%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+
+    <!-- PROJECT -->
+    <H2  id="PROJECTDETAILSSECTION">4.PROJECT DETAILS SECTION</H2>
+    <section id="project">
+      <h2 class="careerSummary">Project Details</h2>
+      <hr />
+      <p>
+        <strong>Name:</strong>&nbsp; <strong><u>Student Management</u></strong>
+      </p>
+      <p>
+        <b><u>Environment:</u></b> &nbsp;<i
+          >Angular 8. TypeScript, JavaScript (ES6), HTML5, CSS, Buming, GiaHub,
+          Desktop GitHub Agile and JIRA, IDE-VS Code
+        </i>
+      </p>
+
+      <p>
+        <b><u>Team size:</u></b
+        ><b>&nbsp;06</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Duration:</b>&nbsp;<i
+          >2021-1 st -jul till present
+        </i>
+      </p>
+      <p>
+        <b>Project Description:</b>&nbsp;This project is mainly used for student
+        management in colleges, where it help to manage student record like
+        unadent registration. <br>Student update information and to see all his or
+        her academic activities like score card, attendance.
+      </p>
+
+      <hr />
+
+      <h2 >Roles and Responsibilities:</h2>
+      <ol id="rolesResp">
+        <li>
+          Designed and implemented the user interface using HTML 5 and CSS
+        </li>
+        <li> Work closely with backend developers for code integration</li>
+        <li>Identifying and troubleshooting issues with front end code</li>
+        <li>Worked on GIT as a version control</li>
+        <li>Used JIRA for bug tracking</li>
+        <li> Implemented project using Agile SCRUM methodology. Involved in daily
+          stand uD meetings. sprint showcase and sprint retrospective
+        </li>
+        <li>Involved in fixing technical issues</li>
+      </ol>
+    </section>
+    <hr>
+
+    <!--OTHERS  -->
+    <H2   id="OTHERSECTION">5.OTHER SECTION</H2>
+    <section id="other">
+
+    <h1>Profile Photo</h1>
+    <img src="download.jpeg" alt="developer" />
+    <p>Piyush Lunawat</p>
+    <p><b>Mobile Number:</b>8788 764 220</p>
+    <p><b>Email:</b>piyushpl9527@gmail.com</p>
+    <p><b>Address:</b>Pune</p>
+    <details >
+      <summary>Family Details</summary>
+      <ul>
+        <li class="parents">Father Name: Pravin Lunawat</li>
+        <li class="parents">Mother Name: Sapana Lunawat</li>
+      </ul>
+    </details>
+
+    <p><b>Hobbies:</b>
+    <ol>
+      <li class="parents">Cricket</li>
+      <li class="parents">Playing BGMI</li>
+      <li class="parents">Reading Books</li>
+    </ol></p>
+
+    <p><b>Personal Strength:</b>
+      <ol>
+        <li class="parents">Hard Working</li>
+        <li class="parents">Learning new things</li>
+        <li class="parents">Teamwork</li>
+      </ol></p>
+
+      <p><b>Hobbies:</b>
+        <ol>
+          <li class="parents">NSS Coordinator</li>
+          <li class="parents">NPTL certificate </li>
+          <li class="parents">Coursera certificate</li>
+        </ol></p>
+      </section>
+
+    <!-- =================Footer Section===================== -->
+
+    <footer>
+       <h3 class="careerSummary" align="center">Follow Us</h3>. 
+       
+         
+          <a
+           class="linkedin-icon" href="https://www.linkedin.com/feed/update/urn:li:activity:7129174841051463680?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7129174841051463680%29"
+      target="_blank" 
+      ><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i>
+    </a>
+   
+    
+
+    <a  class= "instagram-icon" href="https://www.instagram.com/" target="_blank"
+      >
+      <i class="fa fa-lg fa-instagram" aria-hidden="true"></i>
+    </a>
+    
+
+     <a  class="twitter-icon"href="https://twitter.com/i/flow/login" target="_blank">
+      <i class="fa fa-lg fa-twitter-square" aria-hidden="true"></i>
+  
+
+  <a  class="github-icon" href="https://github.com/"target="_blank">
+    <i class="fa  fa-lg" aria-hidden="true"></i>
+</a>
+
+<a class="youtube-icon" href="https://www.youtube.com/" target="_blank">
+  <i class="fa fa-lg fa-youtube-play" aria-hidden="true"></i>
+</a>
+
+
+    
+ 
+    </footer>
+  </body>
+</html>

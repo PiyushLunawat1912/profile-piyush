@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .special-cell {
+        background-color: red; /* Change the color to whatever you want */
+      }
+
+      #table {
+        border: solid;
+      }
+      #td1::selection {
+        background-color: red;
+      }
+
+      #myInput:focus {
+        border: 2px solid blue; /* When the input field is focused, it will have a blue border */
+      }
+
+      li::marker {
+        color: red; /* Change the color of the marker to red */
+        font-weight: bold; /* Make the marker text bold */
+      }
+
+      .my-link:active {
+        color: red; /* Change the color of the link text to red when it is being clicked */
+      }
+
+      #table {
+        border: 1px solid aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="table">
+      <tr>
+        <td id="td1">Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+        <td class="special-cell">Row 1, Column 3</td>
+        <!-- Add a class to the specific cell -->
+      </tr>
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+        <td>Row 2, Column 3</td>
+      </tr>
+      <tr>
+        <td>Row 3, Column 1</td>
+        <td>Row 3, Column 2</td>
+        <td>Row 3, Column 3</td>
+      </tr>
+    </table>
+
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <a href="#" class="my-link">Click me</a>
+
+    <input type="text" id="myInput" placeholder="Enter your name" />
+  </body>
+</html>
